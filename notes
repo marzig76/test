@@ -1,3 +1,12 @@
+// pushing local changes
 git add filename
 git commit -m "comments"
 git push
+
+// pulling updates
+git pull
+
+// file operation
+// use "git rm" and "git mv" instead of "rm" and "mv"
+git rm filename
+git mv filename
