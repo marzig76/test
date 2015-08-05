@@ -9,6 +9,9 @@ git pull
 // overwrite local file with files from git repository
 git checkout filename
 
+// show differnce between local and remote repo
+git diff
+
 // file operation
 // use "git rm" and "git mv" instead of "rm" and "mv"
 git rm filename
