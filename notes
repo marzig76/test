@@ -1,10 +1,13 @@
 // pushing local changes
-git add filename
+git add filename (or for everything `git add -A`)
 git commit -m "comments"
 git push
 
 // pulling updates
 git pull
+
+// overwrite local file with files from git repository
+git checkout filename
 
 // file operation
 // use "git rm" and "git mv" instead of "rm" and "mv"
