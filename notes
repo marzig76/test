@@ -16,3 +16,19 @@ git diff
 // use "git rm" and "git mv" instead of "rm" and "mv"
 git rm filename
 git mv filename
+
+// add upstream
+git remote add upstream https://github.com/user/project
+
+// get changes from upstream
+git pull upstream master
+git push
+
+// change branch
+git checkout v0
+
+// push to branch
+git push origin v0
+
+// switch back to master
+git checkout master
