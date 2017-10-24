@@ -38,3 +38,7 @@ git checkout master
 // merge from another branch into master
 git merge origin/v0.0.2
 git push
+
+//update pypi (pip)
+python setup.py sdist
+twine upload dist/*
