@@ -34,3 +34,7 @@ git push origin v0
 
 // switch back to master
 git checkout master
+
+// merge from another branch into master
+git merge origin/v0.0.2
+git push
